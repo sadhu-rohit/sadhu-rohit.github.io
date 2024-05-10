@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <h1>Rohit Sai Sadhu</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to my Portfolio!</h2>
+      <p>I am a passionate web developer with a strong desire to create beautiful and functional websites. I have experience in HTML, CSS, and JavaScript, and I am always eager to learn new skills.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+	  <p>Sacred Heart University is where I'm currently pursuing my Master's in Computer Science. Prior to that, I completed my undergraduate studies in Computer Science back in Hyderabad.</p>
+    </section>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+	<table>
+  <table border="1">
+      <tr>
+        <th>Library Management System</th>
+        <th>Tourist Buddy</th>
+        <th>Currency Recognition System</th>
+      </tr>
+    <tbody>
+      <tr>
+        <td><img src="images/library.jpeg"></td>
+        <td><img src="images/tourist.jpeg"></td>
+        <td><img src="images/currency.jpeg"></td>
+      </tr>
+      <tr>
+        <td>A library management system is a software application designed to manage and automate the operations of a library. 
+Its primary objective is to streamline the processes involved in managing books, members, and other resources within a library.</td>
+        <td>Travel Buddy is a web and mobile application designed to simplify the process of planning and organizing trips with friends or family. It provides a comprehensive solution for seamless trip management, efficient itinerary planning, budget regulation, and effective communication among trip members. </td>
+        <td>A currency recognition system is a technology that enables automated identification and classification of paper currency or coins. These systems are widely used in various applications such as vending machines, currency counters, and banking operations to efficiently handle monetary transactions</td>
+      </tr>
+    </tbody>
+  </table>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>
